@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el video{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el span{
+    position: absolute;
+
+    height: 500px;
+    width: 500px;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    mix-blend-mode: screen;
+}
